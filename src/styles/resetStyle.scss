@@ -76,8 +76,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* We configure the text we select */
 ::selection {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
 }
 
 /* We level typography and form placement problems. */
@@ -110,8 +110,8 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--typography-primary);
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: var(--color-primario);
+  background-color: var(--color-secundario);
   /* Optional */
   line-height: 1.4em;
   hyphens: auto;

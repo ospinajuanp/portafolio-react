@@ -1,17 +1,22 @@
 import { useState } from "react";
 
 const initialState = {
-    nameState:[] // variable name with state initialization
+	Greetings:'Hello', // variable name with state initialization
+	IAm:"I'm",
+	Name:'Juan Pablo',
+	LastName:'Ospina Restrepo',
+	Profession:'Front-end web developer',
+	Download:'Download CV',
 }
 
 const useInitialState = () => {
 	const [state, setState] = useState(initialState);
 
     // example addState
-	const addToNameState = (payload) => {
+	const spanish = () => {
 		setState({
 			...state,
-			nameState: [...state.cart, payload]
+			saludo:'Hola'
 		});
 	};
 	
@@ -19,7 +24,7 @@ const useInitialState = () => {
 
 	return {
 		state, // always return the state
-		addToNameState // example addState
+		spanish
 	}
 }
 

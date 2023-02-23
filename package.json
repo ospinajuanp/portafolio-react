@@ -50,7 +50,9 @@
   },
   "homepage": "https://github.com/ospinajuanp/portafolio-react#readme",
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.11.0",
     "axios": "^1.2.6",
+    "pdfjs-dist": "^3.3.122",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0"

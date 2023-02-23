@@ -1,16 +1,22 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Lading from '../components/Landing'
+import ViewPdf from '../components/ViewPdf'
 import '../styles/Home.scss'
+
 
 const Home = () => {
 	
-
+	
 	return (
 		<div>
 			<Lading/>
-			<div>
-				hola
-			</div>
+			<ViewPdf/>
+			hola
+{/* 
+			<PDFViewer>
+				<ViewPdf />
+			</PDFViewer> */}
+			
 		</div>
 	);
 }

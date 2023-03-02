@@ -4,3 +4,24 @@
 	--color-terciario:#0099ff;
 	--color-cuarteto:#a0a0a0;
 }
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: auto;
+scrollbar-color: #0099ff #f0f0f0;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+background: #181818;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #0099ff;
+border-radius: 10px;
+border: 1px solid #f0f0f0;
+}

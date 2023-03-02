@@ -1,14 +1,12 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext'
+import ViewPdf from './ViewPdf';
 import '../styles/Lading.scss'
 
 const Landing = () => {
 	const { state } = useContext(AppContext);
 
-	const alertProxi = ()=>{
-		alert('Coming soon')
-	}
-    return (
+	return (
         <div>
             <div className='home'>
 				<div className='home--container'>
@@ -17,7 +15,7 @@ const Landing = () => {
 					<div className='home--container-name'><span>{state.Name}</span> {state.LastName}</div>
 					<div className='home--container-profession'>{state.Profession}</div>
 					<div className='home--container--data'>
-						<div className='home--container--data-download' onClick={alertProxi}>{state.Download}</div>
+						<div className='home--container--data-download'><ViewPdf>{state.Download}</ViewPdf></div>
 						<div className="home--container--data-redes">
 							<a href="https://www.linkedin.com/in/ospinajuanp/" target="_blank">
 								<i className="fa-brands fa-linkedin"></i>

@@ -6,7 +6,7 @@ const initialState = {
 	Name:'Juan Pablo',
 	LastName:'Ospina Restrepo',
 	Profession:'Front-end web developer',
-	Download:'Download CV',
+	Download:'View CV',
 }
 
 const useInitialState = () => {

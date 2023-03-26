@@ -5,7 +5,7 @@ const initialState = {
 	IAm:"I'm",
 	Name:'Juan Pablo',
 	LastName:'Ospina Restrepo',
-	Profession:'Front-end web developer',
+	Profession:'Front-end developer',
 	Download:'View CV',
 }
 

@@ -12,10 +12,7 @@ const Home = () => {
 			<Lading/>
 			<ViewPdf/>
 			hola
-{/* 
-			<PDFViewer>
-				<ViewPdf />
-			</PDFViewer> */}
+			
 			
 		</div>
 	);

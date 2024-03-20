@@ -1,22 +1,8 @@
+# React + Vite
 
-# Usage
-## Development Serve
-```bash
-npm run dev
-```
-## Development
-```bash
-npm run start
-```
-## Production
-```bash
-npm run build
-```
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Contributing
+Currently, two official plugins are available:
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [ospinajuanp-single-page](https://github.com/ospinajuanp/ospinajuanp-single-page)
-
-# License
-
-funny-commit is released under the [MIT License](https://opensource.org/licenses/MIT).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
